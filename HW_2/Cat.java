@@ -6,7 +6,7 @@ public class Cat {
     private boolean satiety;
 
 
-    public boolean satietyy(){
+    public boolean satiety(){
         return satiety;
     }
     public void setSatiety(boolean satiety){
@@ -18,7 +18,9 @@ public class Cat {
         this.appetite = appetite;
         this.satiety = false;
     }
-    public void eat() {}
+    public int eat() {
+        return appetite;
+    }
 
     public String getName() {
         return name;
