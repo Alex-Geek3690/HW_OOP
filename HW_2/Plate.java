@@ -19,7 +19,7 @@ public class Plate {
     }
 
     public void foodAdd(int addportion) {
-        this.food += addportion;
+        this.food = food + addportion;
         System.out.printf("\nДобавлено %d еды\n\n", addportion);
     }
 }
