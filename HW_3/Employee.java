@@ -17,6 +17,4 @@ abstract class Employee {
     public String toString() {
         return String.format("Сотрудник: %s %s; Среднемесячная заработная плата: %.2f", name, surName, salary);
     }
-    
-    
 }
